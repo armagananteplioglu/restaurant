@@ -1,0 +1,1 @@
+console.log("Thanks God, everything is working.");
