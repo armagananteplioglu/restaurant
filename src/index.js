@@ -1,3 +1,4 @@
-import './styles.css';
+import { headerBuilder } from "./header.js";
 
-console.log("Thanks God, everything is working.")
+const content = document.querySelector("#content")
+content.append(headerBuilder())

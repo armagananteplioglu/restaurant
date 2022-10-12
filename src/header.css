@@ -1,6 +1,4 @@
-/* Universal stuff and header*/
-
-/* * {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +12,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-
 header {
     padding: 0 2em;
     width: 100%;
@@ -59,34 +56,9 @@ div#right > a:hover {
     height: auto;
 }
 
-div#left > a {
+#brandName {
     text-decoration: none;
     color: #bb0d02;
     font-weight: bolder;
     font-size: 4rem;
-} */
-
-/*Universal stuff and header ends*/
-
-/* #hero {
-    background: #cad086 no-repeat center center fixed;
-    margin: 0 14em;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3em;
 }
-
-div#hero > img {
-    width: 15em;
-    height: 15em;
-    border-radius: 50%;
-}
-
-div#hero > p {
-    font-size: 3rem;
-    font-weight: bold;
-    font-style: italic;
-} */

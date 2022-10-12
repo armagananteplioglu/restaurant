@@ -1,0 +1,22 @@
+#hero {
+    background: #cad086 no-repeat center center fixed;
+    margin: 0 14em;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+div#hero > img {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+div#hero > p {
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
