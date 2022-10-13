@@ -1,5 +1,5 @@
 import './header.css';
-export { headerBuilder }
+export { header }
 
 const header = document.createElement("header")
 const leftHeader = document.createElement("div")
@@ -27,9 +27,6 @@ menu.textContent = "Menu"
 contact.href = "#"
 contact.textContent = "Contact"
 
-const headerBuilder = () => {
-    content.appendChild(header)
-    header.append(leftHeader, rightHeader)
-    leftHeader.append(headerLogo, name)
-    rightHeader.append(home, menu, contact)
-}
+leftHeader.append(headerLogo, name)
+rightHeader.append(home, menu, contact)
+header.append(leftHeader, rightHeader)

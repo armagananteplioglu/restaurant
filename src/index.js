@@ -1,4 +1,6 @@
-import { headerBuilder } from "./header.js";
+import { homePage } from "./home.js";
+import { header } from "./header.js"
 
 const content = document.querySelector("#content")
-content.append(headerBuilder())
+content.append(header)
+content.append(homePage)

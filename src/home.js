@@ -1,13 +1,15 @@
-import { headerBuilder } from "./header.js"
+import { header } from "./header.js"
 import './home.css';
-export { homeBuilder }
+export { homePage }
 
 
 const hero = document.createElement("div")
 hero.setAttribute("id", "hero")
+const chefPic = document.createElement("img")
+chefPic.src = "/components/chef(cropped)"
+const string = document.createElement("p")
+string.textContent = "Best Asian Wok in Town"
+const homePage = document.createElement("div")
 
-content.append(headerBuilder())
-
-const homeBuilder = () => {
-    content.append(hero)
-}
+hero.append(chefPic, string)
+homepage.appendChild(header, hero)
