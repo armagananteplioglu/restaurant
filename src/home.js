@@ -12,4 +12,4 @@ string.textContent = "Best Asian Wok in Town"
 const homePage = document.createElement("div")
 
 hero.append(chefPic, string)
-homepage.appendChild(header, hero)
+homePage.append(header, hero)
