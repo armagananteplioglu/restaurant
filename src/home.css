@@ -1,4 +1,4 @@
-#hero {
+#heroHome {
     background: #cad086 no-repeat center center fixed;
     margin: 0 14em;
     height: 80vh;
@@ -9,13 +9,13 @@
     gap: 3em;
 }
 
-div#hero > img {
+div#heroHome > img {
     width: 15em;
     height: 15em;
     border-radius: 50%;
 }
 
-div#hero > p {
+div#heroHome > p {
     font-size: 3rem;
     font-weight: bold;
     font-style: italic;

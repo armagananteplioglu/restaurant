@@ -1,0 +1,47 @@
+#heroMenu {
+    background: #cad086 no-repeat center center fixed;
+    margin: 0 14em;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+h2 {
+    padding-top: 0.5em;
+    font-size: 4rem;
+}
+
+
+#mainDishesContainer {
+    padding: 1em;
+    display: flex;
+    gap: 0.5em;
+    
+}
+
+.itemPicture {
+    height: 10em;
+    width: 10em;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.itemContainer {
+    display: flex;
+}
+
+.itemName {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.itemPrice {
+    font-size: 1.6rem;
+}

@@ -1,10 +1,10 @@
 import './header.css';
-export { header }
+
 
 const header = document.createElement("header")
 const leftHeader = document.createElement("div")
 const headerLogo = document.createElement("img")
-const name = document.createElement("a")
+const brandName = document.createElement("a")
 const rightHeader = document.createElement("div")
 const home = document.createElement("a")
 const menu = document.createElement("a")
@@ -16,9 +16,9 @@ rightHeader.setAttribute("id", "right")
 headerLogo.setAttribute("id", "logo")
 headerLogo.src = "/components/logo.jpg"
 
-name.innerHTML = "Noob's " + '<br />' + "Wok"
-name.href = "#"
-name.setAttribute("id", "brandName")
+brandName.innerHTML = "Noob's " + '<br />' + "Wok"
+brandName.href = "#"
+brandName.setAttribute("id", "brandName")
 
 home.href = "#"
 home.textContent = "Home"
@@ -27,6 +27,8 @@ menu.textContent = "Menu"
 contact.href = "#"
 contact.textContent = "Contact"
 
-leftHeader.append(headerLogo, name)
+leftHeader.append(headerLogo, brandName)
 rightHeader.append(home, menu, contact)
 header.append(leftHeader, rightHeader)
+
+export { header, brandName,home, menu, contact }
