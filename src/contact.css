@@ -1,0 +1,20 @@
+#heroContact {
+    background: #cad086 no-repeat center center fixed;
+    margin: 0 14em;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2em;
+    padding: 7em;
+    padding-left: 13em
+}
+
+#textBox {
+    width: 50em;
+    height: 10em;
+}
+
+.text {
+    font-size: 2.5rem;
+}
